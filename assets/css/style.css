@@ -1,0 +1,20 @@
+@import url("variables.css");
+
+nav{
+    background-color: var(--main-col) !important;   
+}
+
+.header-main{
+    background-image: url("/assets/images/wave1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+#desc1, .img-box{
+    flex: 45% !important;
+}
+
+#programs-div > article{
+    flex: 30%;
+}
