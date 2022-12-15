@@ -1,11 +1,15 @@
 @import url("variables.css");
 
+body{
+    /* background-image: linear-gradient(to bottom, #fff, #fff, #9886d23f, #9886d23f, #fff, #fff); */
+}
+
 nav{
     background-color: var(--main-col) !important;   
 }
 
 .header-main{
-    background-image: url("/assets/images/wave1.png");
+    background-image: url("../images/wave1.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -17,4 +21,15 @@ nav{
 
 #programs-div > article{
     flex: 30%;
+}
+
+.foot-item{
+    flex: 1;
+    padding: 1rem;
+}
+.bg{
+    background-image: url("../images/wave2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
 }

@@ -1,6 +1,5 @@
-
 const path = require('path');
-var mysql = require('mysql');
+var mysql = require('mysql2');
 
 
 var con = mysql.createConnection({
@@ -10,9 +9,10 @@ var con = mysql.createConnection({
   database: "geeklets"
 });
 
-con.connect(function(err) {
+con.connect(function (err) {
   if (err) throw err;
   console.log("Connected!");
+ 
 });
 
-// export default con;
+module.exports = con;

@@ -1,0 +1,57 @@
+@import url("variables.css");
+
+nav {
+    background-color: var(--main-col) !important;
+}
+
+body:not(footer) {
+    background: url("../images/blurry-gradient-haikei.svg");
+    /* color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 376px) {
+    .about-header {
+        background-image: url("../images/about-head-wave.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+}
+
+.about-header {
+    background-image: url("../images/about-head-wave.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top; */
+    /* height: 600px; */
+}
+
+.team-img {
+    max-width: 100%;
+}
+
+.team-pic {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.team-item {
+    max-width: 300px;
+    background-color: #fff !important;
+    color: #000;
+}
+
+.social-icon {
+    flex: 1;
+    margin: 0px auto;
+}
+
+.foot-item {
+    flex: 1;
+    padding: 1rem;
+}
