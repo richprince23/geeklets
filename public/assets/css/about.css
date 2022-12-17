@@ -14,7 +14,7 @@ body:not(footer) {
 
 @media screen and (max-width: 376px) {
     .about-header {
-        background-image: url("../images/about-head-wave.svg");
+        background-image: url("../images/blob-scene-haikei.svg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
@@ -23,11 +23,12 @@ body:not(footer) {
 }
 
 .about-header {
-    background-image: url("../images/about-head-wave.svg");
+    background: url("../images/blob-scene-haikei.svg");
+    /* color: #fff; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: top; */
-    /* height: 600px; */
+    background-position: center;
+    height: 300px;
 }
 
 .team-img {
@@ -43,6 +44,8 @@ body:not(footer) {
 .team-item {
     max-width: 300px;
     background-color: #fff !important;
+    /* background-color: transparent!important; */
+    perspective: 1000px;
     color: #000;
 }
 
@@ -55,3 +58,33 @@ body:not(footer) {
     flex: 1;
     padding: 1rem;
 }
+
+  .team-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .team-item:hover .team-img, .team-item:active .team-img, .team-item:focus .team-img, .team-img:focus-within .team-img {
+    visibility: hidden;
+    transform: rotateY(180deg);
+  }
+  .team-item:hover .desc, .team-item:active .desc, .team-item:focus .desc, .team-img:focus-within .desc{
+    visibility: visible;
+    transform: rotateY(180deg);
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+
+  .desc {
+    display: none;
+    color: #000;
+    transform: rotateY(0deg);
+    border-radius: 15px;
+  }

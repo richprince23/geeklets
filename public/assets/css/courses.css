@@ -1,0 +1,70 @@
+@import url("variables.css");
+
+/* Path: public\assets\css\variables.css */
+
+nav {
+    background-color: var(--main-col) !important;
+}
+
+body:not(footer) {
+    background: url("../images/line.svg");
+    /* color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: url("../images/blob-scene-haikei.svg");
+    /* color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.head-img{
+    max-width: 400px;
+}
+
+.nav-tabs * .nav-link.active{
+    background-color: var(--main-col) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+
+.nav-tabs * .nav-link:hover {
+    background-color: var(--sec-col) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+.nav-tabs * .nav-link {
+    color: #000 !important;
+}
+
+.course-item{
+    background: url("../images/blob-scene-haikei.svg");
+    max-width: 300px;
+    /* min-width: 300px; */
+    /* flex: 20%; */
+    /* flex: 1 1 300px; */
+}
+
+.course-img{
+    max-width: 300px;
+    height: 215px;
+}
+.blur{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);   
+}
+.pill{
+    display: inline-block;
+    padding: 0.25em 0.7em;
+    /* background-color: var(--main-col) !important; */
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 20px !important;
+}
+.rating{
+    color: #f8ce0b;
+}

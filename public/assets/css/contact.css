@@ -26,10 +26,7 @@ header{
 .head-cell{
     min-width: 11ch;
 }
-.foot-item{
-    flex: 1;
-    padding: 1rem;
-}
+
 
 .link{
     width: 40px;

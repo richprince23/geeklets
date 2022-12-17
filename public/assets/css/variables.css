@@ -261,3 +261,8 @@ select:focus-within {
     outline: 0;
 
 }
+
+.foot-item{
+    flex: 1;
+    padding: 1rem;
+}
