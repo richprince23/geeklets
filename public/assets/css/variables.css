@@ -69,29 +69,30 @@ body {
 .btn {
     border: none;
     outline: none;
-    padding: 0.75rem 2.5rem !important;
-    font-size: 0.750rem !important;
+    padding: 0.45rem 2.0rem !important;
+    font-size: 0.85rem !important;
 }
 
 .btn-sm {
     border: none;
     outline: none;
     padding: 0.25rem 1.75rem !important;
-    font-size: 0.5rem !important;
+    font-size: 0.7rem !important;
 }
 
 .btn-lg {
     border: none;
     outline: none;
-    padding: 1.0rem 5rem !important;
-    font-size: 1rem !important;
+    padding: 1.0rem 4rem !important;
+    font-size: 1.25rem !important;
 }
 
 .btn:active,
 .btn:focus,
 .btn:focus-within,
+.btn:focus-visible,
 .btn:hover {
-    border: 1px inset #fff !important;
+    /* border: .5px solid  #fff !important; */
     box-shadow: 0 0 .1rem rgb(255, 255, 255) !important;
 }
 
@@ -133,20 +134,16 @@ body {
     background-color: #735AC2 !important;
     color: #fff !important;
     border: none !important;
+    outline: 0 !important;
     border-radius: 25px !important;
-    padding: 10px 20px !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
+    /* padding: 10px 20px !important; */
+    font-size: 0.85rem !important;
+    /* font-weight: 600 !important; */
     transition: all 0.3s ease-in-out !important;
 }
 
 .btn-main:hover {
     background-color: #86c317 !important;
-    color: #fff !important;
-    border: none !important;
-    border-radius: 25px !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
     transition: all 0.3s ease-in-out !important;
 }
 
@@ -154,19 +151,15 @@ body {
     background-color: #86c317 !important;
     color: #fff !important;
     border: none !important;
+    outline: 0 !important;
     border-radius: 25px !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    /* font-weight: 600 !important; */
     transition: all 0.3s ease-in-out !important;
 }
 
 .btn-sec:hover {
     background-color: #735AC2 !important;
-    color: #fff !important;
-    border: none !important;
-    border-radius: 25px !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
     transition: all 0.3s ease-in-out !important;
 }
 
@@ -174,19 +167,15 @@ body {
     background-color: #F7F441 !important;
     color: #fff !important;
     border: none !important;
+    outline: 0 !important;
     border-radius: 25px !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    /* font-weight: 600 !important; */
     transition: all 0.3s ease-in-out !important;
 }
 
 .btn-ter:hover {
     background-color: #735AC2 !important;
-    color: #fff !important;
-    border: none !important;
-    border-radius: 25px !important;
-    font-size: 0.7rem !important;
-    font-weight: 600 !important;
     transition: all 0.3s ease-in-out !important;
 }
 
@@ -235,7 +224,7 @@ body {
 }
 
 .content-text {
-    font-size: 0.85rem !important;
+    font-size: 0.95rem !important;
     font-weight: 400 !important;
 }
 
@@ -245,6 +234,15 @@ select {
     box-shadow: none !important;
     border-radius: 10px !important;
     padding: 0.85rem 1rem !important;
+    /* font-size: 0.85rem !important; */
+    font-weight: 300 !important;
+}
+
+::placeholder {
+    color: #735AC2 !important;
+    font-size: 0.75rem !important;
+    font-weight: 300 !important;
+    font-style: italic !important;
 }
 
 input:focus,

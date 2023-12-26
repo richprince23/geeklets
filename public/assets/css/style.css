@@ -21,7 +21,16 @@ nav{
 
 #programs-div > article{
     flex: 30%;
+    max-width: 300px;
 }
+.article-img{
+    width: 200px;
+    height: 145px;
+}
+/* #programs .img-div{
+    flex: 1;
+    margin: 0px auto !important;
+} */
 
 .foot-item{
     flex: 1;
