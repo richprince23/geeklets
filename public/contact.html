@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <script src="https://kit.fontawesome.com/88a36c0783.js" crossorigin="anonymous"></script>
+    <title>Contact Us | Geeklets Academy</title>
+</head>
+
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo_t.png" alt="logo" class="img-fluids">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#index"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tel:+233203786321">Help Line</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <header id="contact-head">
+        <div class="container p-5 text-center align-items-center">
+            <p class="caption-4 text-white">
+                <q>I am available to more good than I have ever experienced, imagined, or realized before in my
+                    life.</q><br>
+                <span> - Michael Beckwith </span>
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="d-flex flex-column flex-md-row pt-0">
+            <div class="container bg-black contact-details py-5 ">
+                <p class="caption-3 text-center text-white">Contact us </p>
+                <div
+                    class="mx-auto container contact-detail d-flex flex-column justify-content-between p-md-5 b-all bg-white rounded-l">
+                    <p class="text-center">GEEKLETS ACADEMY</p>
+                    <table class="table table-light">
+                        <tbody>
+                            <tr>
+                                <td class="head-cell">
+                                    <div class="form-group ">
+                                        <p class="caption-5"><i class="fa-solid fa-location-dot"></i> Location </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <p class="content-text">Ghana Library Authority, Winneba. Central Region, Ghana
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="head-cell">
+                                    <div class="form-group">
+                                        <p class="caption-5"><i class="fa-solid fa-phone"></i> Phone </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <p class="content-text">+233 54 781 5672</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="head-cell">
+                                    <div class="form-group">
+                                        <p class="caption-5"><i class="fa-solid fa-envelope"></i> Email </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <p class="content-text">geeklets.academy@gmail.com</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="text-center bb mt-3">
+                                        <p class="caption-5">
+                                            Or visit our social media pages below
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <div class="social d-flex flex-row justify-content-around flex-wrap ">
+                                        <a class="link border rounded" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="link border rounded" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="link border rounded" href="#"><i class="fab fa-instagram"></i></a>
+                                        <a class="link border rounded" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="link border rounded" href="#"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="container see-map text-center">
+                        <a href="#map" class="btn btn-sec w-75 m-4 scroll-to" data-scroll="map">See our location</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container main-col-bg message-box py-5">
+                <p class="caption-3 text-center text-white">Send us a message</p>
+                <div class="container form-div p-5 b-all bg-white rounded-l">
+                    <form action="/send-msg" method="post" id="msgForm">
+                        <div class="form-group">
+                            <label for="name">Fullname</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Fullname"
+                                aria-describedby="name field" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address"
+                                aria-describedby="email field" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"
+                                aria-describedby="subject field">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" class="form-control" placeholder="Message"
+                                aria-describedby="Message field" maxlength="1024" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-main w-100" id="sendmsgBtn">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <iframe class="locmap"
+                src="https://maps.google.com/maps?q=ghana%20library%20authorithy%20winneba&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div class=" p-5 bg-dark text-white">
+            <div class="container">
+                <div class=" d-flex flex-column flex-md-row flex-nowrap justify-content-md-evenly">
+                    <div class="foot-item d-flex flex-column">
+                        <div class="foot-img-div">
+                            <img src="./assets/images/demo-logo.png" alt="logo" class="img-fluid" width="200">
+                        </div>
+                        <div class=" ">
+                            <p class="content-text p-0 p-md-3 text-white">We are a Non-Profit Organization aimed at
+                                building a
+                                commmunity of trained and mentored geeks and powering them to cause a
+                                positive change in Africa through entrepreurship and serve</p>
+                        </div>
+                    </div>
+                    <div class="foot-item">
+                        <p class="caption-4">Quick Links</p>
+                        <ul class="list-unstyled">
+                            <li class="my-2"><a href="#" class="content-text ter-col">Home</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">About</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">Programs</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-item">
+                        <p class="caption-4">Contact Us</p>
+                        <ul class="list-unstyled ">
+                            <li class="my-2"><a href="#" class="content-text ter-col"><i
+                                        class="fa-solid fa-location-dot"></i> Ghana Library Authority, Winneba</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col"><i class="fa-solid fa-phone"></i>
+                                    +233 54 781 5672</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col"><i
+                                        class="fa-solid fa-envelope"></i> ovalprojectcrew@gmail.com</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="foot-item">
+                        <p class="caption-4">Social Media</p>
+                        <ul class="list-unstyled">
+                            <li class="my-2"><a href="#" class="content-text ter-col">Facebook</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">Twitter</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">Instagram</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">LinkedIn</a></li>
+                            <li class="my-2"><a href="#" class="content-text ter-col">YouTube</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/casadelaweb/scroller/dist/scroller-cdn.min.js"></script>
+    <script src="./assets/js/contact.js"></script>
+</body>
+
+</html>

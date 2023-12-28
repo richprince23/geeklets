@@ -1,0 +1,42 @@
+@import url("variables.css");
+
+nav {
+    background-color: var(--main-col) !important;
+}
+
+body:not(footer) {
+    background: url("../images/line.svg");
+    /* color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: url("../images/blob-scene-haikei.svg");
+    /* color: #fff; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.form-div, .contact-detail{
+    max-width: 500px;
+}
+.head-cell{
+    min-width: 11ch;
+}
+
+
+.link{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+.link:hover{
+    background-color: var(--sec-col);
+    color: #fff!important;
+    cursor: pointer;
+}
