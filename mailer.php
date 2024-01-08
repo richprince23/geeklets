@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // echo $name;
     // Email configuration
-    $to = "aikins@arksoftwarez.com";
+    $to = "official@innville.net";
 
     $mail = new PHPMailer(true);
 
@@ -32,16 +32,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
         $mail->isSMTP();
-        $mail->Host       = 'smtp.arksoftwarez.com';
+        $mail->Host       = 'smtp.titan.email';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'aikins@arksoftwarez.com';
-        $mail->Password   = 'Costero23#';
+        $mail->Username   = 'official@innville.net';
+        $mail->Password   = 'Tesalah@72';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
         //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
         //Recipients
-        $mail->setFrom("aikins@arksoftwarez.com", $name);
+        $mail->setFrom("official@innville.net", $name);
         $mail->addAddress($to, 'Innville');     //Add a recipient
         $mail->Subject = $subject;
         $mail->isHTML(true);
